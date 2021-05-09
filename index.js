@@ -26,7 +26,7 @@ class Bird{
   }
   speak(){
     if(this.name === "male"){
-    console.log(`"It's me, ${name}!`);
-  } else console.log(`${name} says squawk!`)
+    console.log(`"It's me, ${this.name}!`);
+  } else console.log(`${this.name} says squawk!`)
   }
 }
