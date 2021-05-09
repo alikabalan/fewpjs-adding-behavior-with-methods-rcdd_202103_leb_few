@@ -5,7 +5,7 @@ class Cat{
     this.sex = sex;
   }
   speak(){
-    return `${name} says meow!`;
+    return `${this.name} says meow!`;
   }
 }
 
@@ -15,7 +15,7 @@ class Dog{
     this.sex = sex;
   }
   speak(){
-    return 'name says Woof!';
+    return `${this.name} says Woof!`;
   }
 }
 
